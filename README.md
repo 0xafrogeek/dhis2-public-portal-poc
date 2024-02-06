@@ -6,6 +6,6 @@
 
 -   The API Key is securely stored server-side in an environment variable and referenced by the Next.js Server Action ('use server') code without exposing it to the client.
 
--   The API is validated by the middleware and only provides the requested data if the key is valid
+-   The API Key is validated by the middleware and only provides the requested data if the key is valid
 
 -   Authentication to the DHIS2 API is also securely handled by the middleware
