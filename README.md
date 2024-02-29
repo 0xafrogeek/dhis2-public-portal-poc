@@ -12,6 +12,10 @@ What is this PoC about?
 
 -   Authentication to the DHIS2 RESTful API is securely handled by the middleware.
 
+## Pre-requisites
+
+-   Node.js >= v18.17.0
+
 # Installation
 
 1. Clone the repository to your local machine:
@@ -32,7 +36,13 @@ cd dhis2-public-portal-poc
 npm i
 ```
 
-3. Make sure the nodejs/express [middleware](github.com:0xafrogeek/dhis2-middleware-poc) is up and running.
+3. Make sure the nodejs/express [middleware](github.com/0xafrogeek/dhis2-middleware-poc) is up and running.
+
+4. Copy the `.env.example` file to `.env.local` and update the values accordingly.
+
+```bash
+cp .env.example .env.local
+```
 
 4. Run the project in development mode:
 
