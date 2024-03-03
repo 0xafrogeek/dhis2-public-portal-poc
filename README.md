@@ -36,15 +36,15 @@ cd dhis2-public-portal-poc
 npm i
 ```
 
-3. Make sure the nodejs/express [middleware](github.com/0xafrogeek/dhis2-middleware-poc) is up and running.
+4. Make sure the nodejs/express [middleware](github.com/0xafrogeek/dhis2-middleware-poc) is up and running.
 
-4. Copy the `.env.example` file to `.env.local` and update the values accordingly.
+5. Copy the `.env.example` file to `.env.local` and update the values accordingly.
 
 ```bash
 cp .env.example .env.local
 ```
 
-4. Run the project in development mode:
+6. Run the project in development mode:
 
 ```bash
 npm run dev
