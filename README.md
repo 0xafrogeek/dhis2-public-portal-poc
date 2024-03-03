@@ -1,5 +1,7 @@
 # DHIS2 Public Portal PoC
 
+-   Proof-of-concept for a more secure implementation of a Public Portal leveraging the new Next.js Server Actions ('use server') to make authorized requests to the middleware via a secret API Key.
+
 What is this PoC about?
 
 -   A minimal working PoC for a more secure Public Portal for visualization of DHIS2 data.
